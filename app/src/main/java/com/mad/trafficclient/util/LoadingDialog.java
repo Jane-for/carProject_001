@@ -26,6 +26,9 @@ public class LoadingDialog {
 		dialog.setContentView(R.layout.loading_dialog);
 		dialog.setCanceledOnTouchOutside(false);
 		dialog.show();
+
+
+
 	}
 	public static void disDialog(){
 		dialog.dismiss();
